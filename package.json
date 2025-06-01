@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node index.js"
+    "start": "nodemon --env-file=.env index.js"
   },
   "keywords": [
     "To-Do",
@@ -66,6 +66,7 @@
   "author": "Anup pradhan (Mors)",
   "license": "ISC",
   "devDependencies": {
+    "dotenv": "^16.5.0",
     "nodemon": "^3.1.10"
   }
 }
